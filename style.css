@@ -1,0 +1,33 @@
+header{
+    background-image: url(https://picsum.photos/3000/1000);
+    height: 80vh;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.fs-0{
+    font-size: 60px;
+}
+p{
+    text-align: justify;
+}
+@media screen and (max-width:1190px){
+    .sumir1{
+        display: none;
+    }
+}
+@media screen and (max-width:990px){
+    .imgTamanho{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .sumir{
+        display: none;
+    }
+}
+@media screen and (max-width:765px){
+    .sumir2{
+        display: none;
+    }
+}
